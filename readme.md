@@ -8,7 +8,7 @@ templates][issue].
 ## unified
 
 **remark** is a [unified collective][unified] project.
-Read how it’s governed in [`unifiedjs/governance`][governance].
+Read how it’s governed in [`unifiedjs/collective`][collective].
 
 ## Awesome remark
 
@@ -58,4 +58,4 @@ abide by its terms.
 
 [unified]: https://github.com/unifiedjs
 
-[governance]: https://github.com/unifiedjs/governance
+[collective]: https://github.com/unifiedjs/collective

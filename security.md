@@ -64,4 +64,4 @@ with or unaddressed by this policy.
 
 [remark]: https://github.com/remarkjs
 
-[core]: https://github.com/unifiedjs/governance#core-team
+[core]: https://github.com/unifiedjs/collective#core-team
