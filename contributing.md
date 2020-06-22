@@ -119,7 +119,7 @@ See [`support.md`][support] on how to get help.
 
 [author]: https://wooorm.com
 
-[coc]: https://github.com/remarkjs/.github/blob/master/code-of-conduct.md
+[coc]: https://github.com/remarkjs/.github/blob/main/code-of-conduct.md
 
 [mdast]: https://github.com/syntax-tree/mdast
 

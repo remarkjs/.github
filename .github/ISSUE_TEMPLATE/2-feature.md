@@ -10,8 +10,8 @@ Thank you for suggesting an idea to make this project better!
 Please fill in as much of the template below as you’re able.
 
 P.S. have you seen our support and contributing docs?
-https://github.com/remarkjs/.github/blob/master/support.md
-https://github.com/remarkjs/.github/blob/master/contributing.md
+https://github.com/remarkjs/.github/blob/main/support.md
+https://github.com/remarkjs/.github/blob/main/contributing.md
 -->
 
 ### Subject of the feature
