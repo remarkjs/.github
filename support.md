@@ -1,7 +1,7 @@
 # Support
 
-> This project has a [Code of Conduct][coc].
-> By interacting with this repository, organisation, or community you agree to
+> This project has a [code of conduct][coc].
+> By interacting with this repository, organization, or community you agree to
 > abide by its terms.
 
 Hi!  👋
@@ -11,7 +11,7 @@ To help us help you, please read through the following guidelines.
 Please understand that people involved with this project often do so for fun,
 next to their day job; you are not entitled to free customer service.
 
-## Table of Contents
+## Contents
 
 *   [Questions](#questions)
     *   [Asking quality questions](#asking-quality-questions)
@@ -20,24 +20,28 @@ next to their day job; you are not entitled to free customer service.
 
 ## Questions
 
-Please chat and ask questions on [spectrum][chat]!
+Please chat and ask questions on [Discussions][chat]!
 Jump in there and lurk, talk to us, and help others.
 
-*   [**unified**](https://spectrum.chat/unified/unified)
+*   [**unified**](https://github.com/unifiedjs/unified/discussions)
     — Topics relating to [**unified**][unified] in general
-*   [**vfile**](https://spectrum.chat/unified/vfile)
-    — Topics relating to [**vfile**][vfile]: virtual files
-*   [**syntax-tree**](https://spectrum.chat/unified/syntax-tree)
-    — Topics relating to [**syntax-tree**][syntax-tree] and [**unist**][unist]
-*   [**remark**](https://spectrum.chat/unified/remark)
+*   [**remark**](https://github.com/remarkjs/remark/discussions)
     — Topics relating to the [**remark**][remark] ecosystem, markdown,
     and [**mdast**][mdast]
-*   [**rehype**](https://spectrum.chat/unified/rehype)
+*   [**rehype**](https://github.com/rehypejs/rehype/discussions)
     — Topics relating to the [**rehype**][rehype] ecosystem, HTML,
     and [**hast**][hast]
-*   [**retext**](https://spectrum.chat/unified/retext)
+*   [**retext**](https://github.com/retextjs/retext/discussions)
     — Topics relating to the [**retext**][retext] ecosystem, natural language,
     and [**nlcst**][nlcst]
+*   [**MDX**](https://github.com/mdx-js/mdx/discussions)
+    — Topics relating to [**MDX**][mdx]
+*   [**micromark**](https://github.com/micromark/micromark/discussions)
+    — Topics relating to the future of markdown in unified!
+*   [**vfile**](https://github.com/vfile/vfile/discussions)
+    — Topics relating to [**vfile**][vfile]: virtual files
+*   [**syntax-tree**](https://github.com/syntax-tree/unist/discussions)
+    — Topics relating to [**syntax-tree**][syntax-tree] and [**unist**][unist]
 
 ### Asking quality questions
 
@@ -99,12 +103,14 @@ See [`contributing.md`][contributing] on how to contribute.
 
 [rehype]: https://github.com/rehypejs/rehype
 
+[mdx]: https://github.com/mdx-js/mdx
+
 [rubberduck]: https://rubberduckdebugging.com
 
 [xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
 
 [codesandbox]: https://codesandbox.io
 
-[chat]: https://spectrum.chat/unified
+[chat]: https://github.com/remarkjs/remark/discussions
 
 [contributing]: contributing.md

@@ -1,7 +1,7 @@
 # Contributing
 
-> This project has a [Code of Conduct][coc].
-> By interacting with this repository, organisation, or community you agree to
+> This project has a [code of conduct][coc].
+> By interacting with this repository, organization, or community you agree to
 > abide by its terms.
 
 Hi!  👋
@@ -13,7 +13,7 @@ If you’re raising an issue, please understand that people involved with this
 project often do so for fun, next to their day job; you are not entitled to
 free customer service.
 
-## Table of Contents
+## Contents
 
 *   [Ecosystem](#ecosystem)
 *   [Contributions](#contributions)
@@ -30,7 +30,7 @@ free customer service.
 
 ## Ecosystem
 
-The collective ([unified][]) consists of several organisations and separate
+The collective ([unified][]) consists of several organizations and separate
 projects: most of them are tiny, and many of them have a utility
 ([`mdast-util-to-hast`][mdast-util-to-hast]), a plugin
 ([`remark-rehype`][remark-rehype]), and relate to an ecosystem

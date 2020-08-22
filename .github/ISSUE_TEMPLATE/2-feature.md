@@ -22,9 +22,9 @@ Describe your issue here.
 
 If the feature requests relates to a problem, please describe the problem you are trying to solve here.
 
-### Expected behaviour
+### Expected behavior
 
-What should happen?  Please describe the desired behaviour.
+What should happen?  Please describe the desired behavior.
 
 ### Alternatives
 
