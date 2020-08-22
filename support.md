@@ -63,7 +63,7 @@ Spending the extra time up front can help save everyone time in the long run.
     *   Is there a concept you’re not understanding?
 *   Learn about the [rubber duck debugging method][rubberduck]
 *   Avoid falling for the [XY problem][xy]
-*   Search on GitHub and Spectrum to see if a similar question has been asked
+*   Search on GitHub to see if a similar question has been asked
 *   If possible, provide sample code, a [CodeSandbox][], or a video
 *   The more time you put into asking your question, the better we can help you
 
