@@ -39,6 +39,12 @@ body:
       label: Link to runnable example
       description: |
         Link to repository or sandbox with runnable example of the issue.
+
+        Some CodeSandbox starters:
+        - [remark only](https://codesandbox.io/s/remark-debug-ikwvx) (for markdown to markdown)
+        - [remark and rehype](https://codesandbox.io/s/remark-rehype-debug-4cz8v) (for markdown to html)
+        - [react-markdown](https://codesandbox.io/s/react-markdown-debug-9n4eg)
+
         Alternatively, use the next section *Steps to reproduce*.
     validations:
       required: false
