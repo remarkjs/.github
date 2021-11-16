@@ -24,8 +24,6 @@ Take a look at [`support.md`][support] to find out how to help us help you.
 We’re excited that you’re interested in contributing!
 Take a moment to read [`contributing.md`][contribute].
 
-Ideas for new plugins and tools can be posted in [`remarkjs/ideas`][ideas].
-
 ## Code of conduct
 
 This project has a [code of conduct][coc].
@@ -51,8 +49,6 @@ abide by its terms.
 [pr]: .github/pull-request-template.md
 
 [issue]: .github/ISSUE_TEMPLATE
-
-[ideas]: https://github.com/remarkjs/ideas
 
 [awesome]: https://github.com/remarkjs/awesome-remark
 
