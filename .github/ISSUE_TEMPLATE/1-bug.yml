@@ -82,13 +82,12 @@ body:
         **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 is required.
       multiple: true
       options:
+        - Node v17
         - Node v16
         - Node v14
         - Node v12
-        - Deno v1
-        - Electron v13
-        - Electron v12
-        - Electron v11
+        - Deno
+        - Electron
         - Other (please specify in steps to reproduce)
     validations:
       required: false
@@ -100,10 +99,10 @@ body:
       description: What package manager are you using?
       multiple: true
       options:
-        - npm v6
         - npm v7
-        - yarn v1
+        - npm v6
         - yarn v2
+        - yarn v1
         - pnpm
         - Other (please specify in steps to reproduce)
     validations:
@@ -137,6 +136,7 @@ body:
         - Create React App
         - Gatsby
         - Next.js
+        - Remix
         - Docusaurus
         - Snowpack
         - Vite
