@@ -1,6 +1,6 @@
 # Support
 
-> This project has a [code of conduct][coc].
+> 👉 **Note**: This project has a [code of conduct][coc].
 > By interacting with this repository, organization, or community you agree to
 > abide by its terms.
 
