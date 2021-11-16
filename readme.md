@@ -8,21 +8,19 @@ templates][issue].
 ## unified
 
 **remark** is a [unified collective][unified] project.
-Read how it’s governed in [`unifiedjs/collective`][collective].
+See [`unifiedjs/collective`][collective] for how it’s governed.
 
 ## Awesome remark
 
-For a curated list of awesome remark resources, see [awesome remark][awesome].
+See [awesome remark][awesome] for a curated list of awesome remark resources.
 
 ## Support
 
-We’re glad you’re using these projects and we’d love to help.
-Take a look at [`support.md`][support] to find out how to help us help you.
+See [`support.md`][support] to find out how to help us help you.
 
 ## Contributing
 
-We’re excited that you’re interested in contributing!
-Take a moment to read [`contributing.md`][contribute].
+See [`contributing.md`][contribute] for how to contribute.
 
 ## Code of conduct
 
