@@ -58,11 +58,11 @@ that work with content as structured data.
 
 [collective]: https://github.com/unifiedjs/collective
 
-[coc]: ../code-of-conduct.md
+[coc]: https://github.com/remarkjs/.github/blob/main/code-of-conduct.md
 
-[support]: ../support.md
+[support]: https://github.com/remarkjs/.github/blob/main/support.md
 
-[contribute]: ../contributing.md
+[contribute]: https://github.com/remarkjs/.github/blob/main/contributing.md
 
 [oc]: https://opencollective.com/unified
 
