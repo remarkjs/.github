@@ -1,7 +1,7 @@
-# ![remark][logo]
+# [![remark][logo]][monorepo]
 
-**remark** is a popular free and open source tool that transforms markdown with
-plugins.
+[**remark**][monorepo] is a popular free and open source tool that transforms
+markdown with plugins.
 These plugins can inspect and change your markup.
 
 #### Markdown
@@ -31,6 +31,8 @@ It typically looks more like what’s intended and is terser.
 *   to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
 
 [logo]: https://raw.githubusercontent.com/remarkjs/remark/1f338e72/logo.svg?sanitize=true
+
+[monorepo]: https://github.com/remarkjs/remark
 
 [commonmark]: https://commonmark.org
 
