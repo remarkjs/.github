@@ -2,24 +2,24 @@
 
 [**remark**][monorepo] is a popular free and open source tool that transforms
 markdown with plugins.
-These plugins can inspect and change your markup.
-
-#### Markdown
-
 Markdown is a markup language that often feels more natural to type than HTML.
-It typically looks more like what’s intended and is terser.
+Plugins can inspect and change markdown.
 
+*   to learn markdown, see this [cheatsheet and tutorial][cheat]
 *   we follow [CommonMark][] by default (GFM with [`remark-gfm`][remark-gfm],
     MDX with [`remark-mdx`][remark-mdx])
-*   to learn markdown, see this [cheatsheet and tutorial][cheat]
-
-#### Quick links
-
 *   we use [`micromark`][micromark] for parsing and [mdast][] as the syntax tree
 *   to find plugins, see [`awesome-remark`][awesome], the
     [list of plugins][plugins], and the [`remark-plugin` topic][topic]
+
+#### unified
+
+remark is part of the unified collective, which brings together organisations
+that work with content as structured data.
+
 *   for more about us, see [`unifiedjs.com`][site]
-*   for updates, see [Twitter][]
+*   for how the collective is governed, see [`unifiedjs/collective`][collective]
+*   for updates, see [@unifiedjs][twitter] on Twitter
 
 #### Get involved
 
@@ -55,6 +55,8 @@ It typically looks more like what’s intended and is terser.
 [site]: https://unifiedjs.com
 
 [twitter]: https://twitter.com/unifiedjs
+
+[collective]: https://github.com/unifiedjs/collective
 
 [coc]: ../code-of-conduct.md
 
