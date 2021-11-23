@@ -1,7 +1,7 @@
 import React, {StrictMode} from 'react'
 import * as ReactDOM from 'react-dom'
 
-import App from './app.jsx'
+import App from './app'
 
 const rootElement = document.querySelector('#root')
 
