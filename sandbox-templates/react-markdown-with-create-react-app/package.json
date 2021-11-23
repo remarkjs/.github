@@ -2,7 +2,7 @@
   "name": "react-markdown-with-create-react-app",
   "version": "1.0.0",
   "private": true,
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",

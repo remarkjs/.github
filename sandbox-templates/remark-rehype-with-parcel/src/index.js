@@ -26,9 +26,10 @@ unified()
   // Add any rehype plugins here
   .use(rehypeStringify)
   .process(sourceMarkdown)
-  .then(
-    (file) =>
-      (document.querySelector('#result').contentWindow.document.body.innerHTML =
-        String(file))
-  )
-  .catch((error) => (document.querySelector('#error').textContent = error))
+  .then((file) => {
+    document.querySelector('#result').contentWindow.document.body.innerHTML =
+      String(file)
+  })
+  .catch((error) => {
+    document.querySelector('#error').textContent = error
+  })

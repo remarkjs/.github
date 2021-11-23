@@ -1,13 +1,13 @@
-import React from 'react'
+import React, {StrictMode} from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './app.js'
+import App from './app.jsx'
 
 const rootElement = document.querySelector('#root')
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   rootElement
 )

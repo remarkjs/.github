@@ -15,6 +15,6 @@ function () {}
 \`\`\`
 `
 
-export default function App() {
-  return <Markdown>{markdownSource}</Markdown>
-}
+const App = () => <Markdown>{markdownSource}</Markdown>
+
+export default App

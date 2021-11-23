@@ -12,6 +12,7 @@
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
   "devDependencies": {
+    "eslint-config-xo-react": "^0.25.0",
     "prettier": "^2.0.0",
     "remark-cli": "^10.0.0",
     "remark-frontmatter": "^4.0.0",
@@ -31,7 +32,11 @@
     "trailingComma": "none"
   },
   "xo": {
-    "prettier": true
+    "extends": "xo-react",
+    "prettier": true,
+    "env": [
+      "browser"
+    ]
   },
   "remarkConfig": {
     "plugins": [
