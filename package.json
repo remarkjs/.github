@@ -11,6 +11,11 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
+  "workspaces": [
+    "sandbox-templates/react-markdown-with-create-react-app",
+    "sandbox-templates/remark-rehype-with-parcel",
+    "sandbox-templates/remark-with-parcel"
+  ],
   "devDependencies": {
     "eslint-config-xo-react": "^0.25.0",
     "prettier": "^2.0.0",
