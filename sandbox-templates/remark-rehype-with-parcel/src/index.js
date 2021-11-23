@@ -19,19 +19,23 @@ function () {}
 \`\`\`
 `
 
-document.querySelector('#source').textContent = sourceMarkdown
+async function main() {
+  document.querySelector('#source').textContent = sourceMarkdown
 
-unified()
-  .use(remarkParse)
-  // Add any remark plugins here
-  .use(remarkRehype)
-  // Add any rehype plugins here
-  .use(rehypeStringify)
-  .process(sourceMarkdown)
-  .then((file) => {
+  try {
+    const file = await unified()
+      .use(remarkParse)
+      // Add any remark plugins here
+      .use(remarkRehype)
+      // Add any rehype plugins here
+      .use(rehypeStringify)
+      .process(sourceMarkdown)
+
     document.querySelector('#result').contentWindow.document.body.innerHTML =
       String(file)
-  })
-  .catch((error) => {
-    document.querySelector('#error').textContent = error
-  })
+  } catch (err) {
+    document.querySelector('#error').textContent = err
+  }
+}
+
+main()

@@ -16,14 +16,18 @@ function () {}
 \`\`\`
 `
 
-document.querySelector('#source').textContent = sourceMarkdown
+async function main() {
+  document.querySelector('#source').textContent = sourceMarkdown
 
-remark()
-  // .use remark plugins here
-  .process(sourceMarkdown)
-  .then((file) => {
+  try {
+    const file = await remark()
+      // .use remark plugins here
+      .process(sourceMarkdown)
+
     document.querySelector('#result').textContent = String(file)
-  })
-  .catch((error) => {
-    document.querySelector('#error').textContent = error
-  })
+  } catch (err) {
+    document.querySelector('#error').textContent = err
+  }
+}
+
+main()
