@@ -28,8 +28,7 @@ unified()
   .process(sourceMarkdown)
   .then(
     (file) =>
-      (document.getElementById(
-        "result"
-      ).contentWindow.document.body.innerHTML = String(file))
+      (document.getElementById("result").contentWindow.document.body.innerHTML =
+        String(file))
   )
   .catch((err) => (document.getElementById("error").textContent = err));
