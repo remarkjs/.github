@@ -41,9 +41,9 @@ body:
         Link to repository or sandbox with runnable example of the issue.
 
         Some CodeSandbox starters:
-        - [remark only](https://codesandbox.io/s/remark-debug-ikwvx) (for markdown to markdown)
-        - [remark and rehype](https://codesandbox.io/s/remark-rehype-debug-4cz8v) (for markdown to html)
-        - [react-markdown](https://codesandbox.io/s/react-markdown-debug-9n4eg)
+        - [remark only](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) (for markdown to markdown)
+        - [remark and rehype](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) (for markdown to html)
+        - [react-markdown](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app)
 
         Alternatively, use the next section *Steps to reproduce*.
     validations:
