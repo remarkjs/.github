@@ -36,6 +36,16 @@
     "prettier": true,
     "env": [
       "browser"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "sandbox-templates/**/*.tsx"
+        ],
+        "rules": {
+          "@typescript-eslint/naming-convention": "off"
+        }
+      }
     ]
   },
   "remarkConfig": {
