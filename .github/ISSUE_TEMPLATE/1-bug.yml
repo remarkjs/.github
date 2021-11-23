@@ -40,10 +40,12 @@ body:
       description: |
         Link to repository or sandbox with runnable example of the issue.
 
-        Some CodeSandbox starters:
-        - [remark only](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) (for markdown to markdown)
-        - [remark and rehype](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) (for markdown to html)
-        - [react-markdown](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app)
+        Some starters:
+        | description | codesandbox | stackblitz |
+        | - | - | - |
+        | remark only (for markdown to markdown) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github-remark/tree/main/sandbox-templates/remark-with-parcel) | 
+        | remark and rehype (for markdown to html) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github-remark/tree/main/sandbox-templates/remark-rehype-with-parcel) |
+        | react-markdown | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app) | [stackblitz](https://stackblitz.com/github/remarkjs/.github-remark/tree/main/sandbox-templates/react-markdown-with-create-react-app) |
 
         Alternatively, use the next section *Steps to reproduce*.
     validations:
