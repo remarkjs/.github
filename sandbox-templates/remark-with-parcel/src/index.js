@@ -1,7 +1,7 @@
 // ⚠️ Important! Please make sure the dependencies are up to date.
 // You can refresh them in the Dependencies section (left-bottom on CodeSandbox)
 
-import { remark } from "remark";
+import {remark} from 'remark'
 
 const sourceMarkdown = `
 # heading
@@ -12,14 +12,14 @@ const sourceMarkdown = `
 \`\`\`js
 function () {}
 \`\`\`
-`;
+`
 
-document.getElementById("source").textContent = sourceMarkdown;
+document.querySelector('#source').textContent = sourceMarkdown
 
 remark()
   // .use remark plugins here
   .process(sourceMarkdown)
   .then(
-    (file) => (document.getElementById("result").textContent = String(file))
+    (file) => (document.querySelector('#result').textContent = String(file))
   )
-  .catch((err) => (document.getElementById("error").textContent = err));
+  .catch((error) => (document.querySelector('#error').textContent = error))

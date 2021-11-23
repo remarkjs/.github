@@ -1,10 +1,10 @@
 // ⚠️ Important! Please make sure the dependencies are up to date.
 // You can refresh them in the Dependencies section (left-bottom on CodeSandbox)
 
-import { unified } from "unified";
-import remarkParse from "remark-parse";
-import remarkRehype from "remark-rehype";
-import rehypeStringify from "rehype-stringify";
+import {unified} from 'unified'
+import remarkParse from 'remark-parse'
+import remarkRehype from 'remark-rehype'
+import rehypeStringify from 'rehype-stringify'
 
 const sourceMarkdown = `
 # heading
@@ -15,20 +15,20 @@ const sourceMarkdown = `
 \`\`\`js
 function () {}
 \`\`\`
-`;
+`
 
-document.getElementById("source").textContent = sourceMarkdown;
+document.querySelector('#source').textContent = sourceMarkdown
 
 unified()
   .use(remarkParse)
-  // add any remark plugins here
+  // Add any remark plugins here
   .use(remarkRehype)
-  // add any rehype plugins here
+  // Add any rehype plugins here
   .use(rehypeStringify)
   .process(sourceMarkdown)
   .then(
     (file) =>
-      (document.getElementById("result").contentWindow.document.body.innerHTML =
+      (document.querySelector('#result').contentWindow.document.body.innerHTML =
         String(file))
   )
-  .catch((err) => (document.getElementById("error").textContent = err));
+  .catch((error) => (document.querySelector('#error').textContent = error))
