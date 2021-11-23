@@ -5,7 +5,7 @@ import React from "react";
 import Markdown from "react-markdown";
 
 const markdownSource = `
-# header
+# heading
 
 * list
 * items
