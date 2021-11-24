@@ -11,14 +11,47 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
+  "workspaces": [
+    "sandbox-templates/react-markdown-with-create-react-app",
+    "sandbox-templates/remark-rehype-with-parcel",
+    "sandbox-templates/remark-with-parcel"
+  ],
   "devDependencies": {
+    "eslint-config-xo-react": "^0.25.0",
+    "prettier": "^2.0.0",
     "remark-cli": "^10.0.0",
     "remark-frontmatter": "^4.0.0",
-    "remark-preset-wooorm": "^9.0.0"
+    "remark-preset-wooorm": "^9.0.0",
+    "xo": "^0.46.0"
   },
   "scripts": {
-    "format": "remark . -qfo",
+    "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
     "test": "npm run format"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "extends": "xo-react",
+    "prettier": true,
+    "env": [
+      "browser"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "sandbox-templates/**/*.tsx"
+        ],
+        "rules": {
+          "@typescript-eslint/naming-convention": "off"
+        }
+      }
+    ]
   },
   "remarkConfig": {
     "plugins": [
