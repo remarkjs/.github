@@ -22,20 +22,18 @@ function () {}
 async function main() {
   document.querySelector('#source').textContent = sourceMarkdown
 
-  try {
-    const file = await unified()
-      .use(remarkParse)
-      // Add any remark plugins here
-      .use(remarkRehype)
-      // Add any rehype plugins here
-      .use(rehypeStringify)
-      .process(sourceMarkdown)
+  const file = await unified()
+    .use(remarkParse)
+    // Add any remark plugins here
+    .use(remarkRehype)
+    // Add any rehype plugins here
+    .use(rehypeStringify)
+    .process(sourceMarkdown)
 
-    document.querySelector('#result').contentWindow.document.body.innerHTML =
-      String(file)
-  } catch (error) {
-    document.querySelector('#error').textContent = error
-  }
+  document.querySelector('#result').contentWindow.document.body.innerHTML =
+    String(file)
 }
 
-main()
+main().catch((error) => {
+  document.querySelector('#error').textContent = error
+})
