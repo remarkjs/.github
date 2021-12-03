@@ -19,15 +19,13 @@ function () {}
 async function main() {
   document.querySelector('#source').textContent = sourceMarkdown
 
-  try {
-    const file = await remark()
-      // .use remark plugins here
-      .process(sourceMarkdown)
+  const file = await remark()
+    // .use remark plugins here
+    .process(sourceMarkdown)
 
-    document.querySelector('#result').textContent = String(file)
-  } catch (error) {
-    document.querySelector('#error').textContent = error
-  }
+  document.querySelector('#result').textContent = String(file)
 }
 
-main()
+main().catch((error) => {
+  document.querySelector('#error').textContent = error
+})
