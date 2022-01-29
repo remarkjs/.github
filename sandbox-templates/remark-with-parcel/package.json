@@ -2,7 +2,7 @@
   "name": "remark-with-parcel",
   "version": "1.0.0",
   "private": true,
-  "main": "index.html",
+  "main": "src/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "parcel-bundler": "^1.0.0"
+    "parcel": "^2.0.0"
   }
 }

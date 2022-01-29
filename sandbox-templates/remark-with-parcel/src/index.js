@@ -24,6 +24,7 @@ async function main() {
     .process(sourceMarkdown)
 
   document.querySelector('#result').textContent = String(file)
+  document.querySelector('#error').textContent = ''
 }
 
 main().catch((error) => {

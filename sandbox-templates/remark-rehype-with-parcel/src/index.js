@@ -32,6 +32,7 @@ async function main() {
 
   document.querySelector('#result').contentWindow.document.body.innerHTML =
     String(file)
+  document.querySelector('#error').textContent = ''
 }
 
 main().catch((error) => {
