@@ -8,13 +8,13 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "rehype-stringify": "9.0.2",
-    "remark-parse": "10.0.1",
-    "remark-rehype": "10.0.1",
-    "unified": "10.1.1"
+    "rehype-stringify": "^9.0.0",
+    "remark-parse": "^10.0.0",
+    "remark-rehype": "^10.0.0",
+    "unified": "^10.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.16.0",
-    "parcel-bundler": "1.12.5"
+    "@babel/core": "^7.0.0",
+    "parcel-bundler": "^1.0.0"
   }
 }
