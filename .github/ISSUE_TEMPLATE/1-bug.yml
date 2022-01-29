@@ -44,7 +44,7 @@ body:
 
         | description | codesandbox | stackblitz |
         | - | - | - |
-        | remark only (for markdown to markdown) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) | 
+        | remark only (for markdown to markdown) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) |
         | remark and rehype (for markdown to html) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) |
         | react-markdown | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app) |
 
@@ -102,10 +102,11 @@ body:
       description: What package manager are you using?
       multiple: true
       options:
-        - npm v7
-        - npm v6
-        - yarn v2
-        - yarn v1
+        - npm 8
+        - npm 7
+        - npm 6
+        - yarn 2
+        - yarn 1
         - pnpm
         - Other (please specify in steps to reproduce)
     validations:
