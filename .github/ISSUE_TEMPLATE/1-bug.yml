@@ -47,6 +47,7 @@ body:
         | remark only (for markdown to markdown) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-parcel) |
         | remark and rehype (for markdown to html) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/remark-rehype-with-parcel) |
         | react-markdown | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app) | [stackblitz](https://stackblitz.com/github/remarkjs/.github/tree/main/sandbox-templates/react-markdown-with-create-react-app) |
+        | remark with deno (for markdown to markdown) | [codesandbox](https://codesandbox.io/s/github/remarkjs/.github/tree/main/sandbox-templates/remark-with-deno) | :no_entry: |
 
         Alternatively, use the next section *Steps to reproduce*.
     validations:
