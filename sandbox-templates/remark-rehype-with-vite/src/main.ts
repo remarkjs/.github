@@ -19,8 +19,9 @@ function () {}
 \`\`\`
 `
 
-async function main() {
-  document.querySelector('#source').textContent = sourceMarkdown
+try {
+  document.querySelector<HTMLPreElement>('#source')!.textContent =
+    sourceMarkdown
 
   const file = await unified()
     .use(remarkParse)
@@ -30,11 +31,10 @@ async function main() {
     .use(rehypeStringify)
     .process(sourceMarkdown)
 
-  document.querySelector('#result').contentWindow.document.body.innerHTML =
-    String(file)
-  document.querySelector('#error').textContent = ''
+  document.querySelector<HTMLIFrameElement>(
+    '#result'
+  )!.contentWindow!.document.body.innerHTML = String(file)
+  document.querySelector<HTMLPreElement>('#error')!.textContent = ''
+} catch (error) {
+  document.querySelector<HTMLPreElement>('#error')!.textContent = String(error)
 }
-
-main().catch((error) => {
-  document.querySelector('#error').textContent = error
-})

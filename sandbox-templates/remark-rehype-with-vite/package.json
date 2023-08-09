@@ -1,11 +1,11 @@
 {
-  "name": "remark-rehype-with-parcel",
+  "name": "remark-rehype-with-vite",
   "version": "1.0.0",
   "private": true,
-  "main": "src/index.js",
+  "type": "module",
+  "main": "src/main.ts",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "tsc && vite"
   },
   "dependencies": {
     "rehype-stringify": "^9.0.0",
@@ -14,7 +14,7 @@
     "unified": "^10.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "parcel": "^2.0.0"
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0"
   }
 }

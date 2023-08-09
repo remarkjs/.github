@@ -12,17 +12,17 @@
     "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
   ],
   "workspaces": [
-    "sandbox-templates/react-markdown-with-create-react-app",
-    "sandbox-templates/remark-rehype-with-parcel",
-    "sandbox-templates/remark-with-parcel"
+    "sandbox-templates/react-markdown-with-vite",
+    "sandbox-templates/remark-rehype-with-vite",
+    "sandbox-templates/remark-with-vite"
   ],
   "devDependencies": {
-    "eslint-config-xo-react": "^0.26.0",
-    "prettier": "^2.0.0",
+    "eslint-config-xo-react": "^0.27.0",
+    "prettier": "^3.0.0",
     "remark-cli": "^10.0.0",
     "remark-frontmatter": "^4.0.0",
     "remark-preset-wooorm": "^9.0.0",
-    "xo": "^0.47.0"
+    "xo": "^0.55.0"
   },
   "scripts": {
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
@@ -48,7 +48,8 @@
           "sandbox-templates/**/*.tsx"
         ],
         "rules": {
-          "@typescript-eslint/naming-convention": "off"
+          "@typescript-eslint/naming-convention": "off",
+          "react/react-in-jsx-scope": "off"
         }
       }
     ]
