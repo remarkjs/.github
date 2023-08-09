@@ -1,0 +1,17 @@
+{
+  "name": "remark-with-vite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc && vite"
+  },
+  "dependencies": {
+    "remark": "^14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0"
+  }
+}

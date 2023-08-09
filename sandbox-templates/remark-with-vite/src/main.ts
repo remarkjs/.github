@@ -16,17 +16,15 @@ function () {}
 \`\`\`
 `
 
-async function main() {
-  document.querySelector('#source').textContent = sourceMarkdown
+try {
+  document.querySelector('#source')!.textContent = sourceMarkdown
 
   const file = await remark()
     // .use remark plugins here
     .process(sourceMarkdown)
 
-  document.querySelector('#result').textContent = String(file)
-  document.querySelector('#error').textContent = ''
+  document.querySelector('#result')!.textContent = String(file)
+  document.querySelector('#error')!.textContent = ''
+} catch (error) {
+  document.querySelector('#error')!.textContent = String(error)
 }
-
-main().catch((error) => {
-  document.querySelector('#error').textContent = error
-})
