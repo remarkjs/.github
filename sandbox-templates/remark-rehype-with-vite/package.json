@@ -8,10 +8,10 @@
     "start": "tsc && vite"
   },
   "dependencies": {
-    "rehype-stringify": "^9.0.0",
-    "remark-parse": "^10.0.0",
-    "remark-rehype": "^10.0.0",
-    "unified": "^10.0.0"
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "unified": "^11.0.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

@@ -8,7 +8,7 @@
     "start": "tsc && vite"
   },
   "dependencies": {
-    "remark": "^14.0.0"
+    "remark": "^15.0.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
