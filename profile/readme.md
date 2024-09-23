@@ -5,30 +5,30 @@ markdown with plugins.
 Markdown is a markup language that often feels more natural to type than HTML.
 Plugins can inspect and change markdown.
 
-*   to learn markdown, see this [cheatsheet and tutorial][cheat]
-*   we follow [CommonMark][] by default (GFM with [`remark-gfm`][remark-gfm],
-    MDX with [`remark-mdx`][remark-mdx])
-*   we use [`micromark`][micromark] for parsing and [mdast][] as the syntax tree
-*   to find plugins, see [`awesome-remark`][awesome], the
-    [list of plugins][plugins], and the [`remark-plugin` topic][topic]
+* to learn markdown, see this [cheatsheet and tutorial][cheat]
+* we follow [CommonMark][] by default (GFM with [`remark-gfm`][remark-gfm],
+  MDX with [`remark-mdx`][remark-mdx])
+* we use [`micromark`][micromark] for parsing and [mdast][] as the syntax tree
+* to find plugins, see [`awesome-remark`][awesome], the
+  [list of plugins][plugins], and the [`remark-plugin` topic][topic]
 
 #### unified
 
 remark is part of the unified collective, which brings together organisations
 that work with content as structured data.
 
-*   for more about us, see [`unifiedjs.com`][site]
-*   for how the collective is governed, see [`unifiedjs/collective`][collective]
-*   for updates, see [@unifiedjs][twitter] on Twitter
+* for more about us, see [`unifiedjs.com`][site]
+* for how the collective is governed, see [`unifiedjs/collective`][collective]
+* for updates, see [@unifiedjs][twitter] on Twitter
 
 #### Get involved
 
 > 👉 **Note**: By interacting with this organization or community you agree to
 > abide by our [code of conduct][coc].
 
-*   for questions, see [support][]
-*   to help, see [contribute][]
-*   to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
+* for questions, see [support][]
+* to help, see [contribute][]
+* to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
 
 [logo]: https://raw.githubusercontent.com/remarkjs/remark/1f338e72/logo.svg?sanitize=true
 

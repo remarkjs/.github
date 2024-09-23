@@ -37,36 +37,36 @@ bug or suggest a new feature before creating a pull request.
 
 ## Submitting an issue
 
-*   The issue tracker is for issues.
-    Use discussions for support
-*   Search the issue tracker (including closed issues) before opening a new
-    issue
-*   Ensure you’re using the latest version of our packages
-*   Use a clear and descriptive title
-*   Include as much information as possible: steps to reproduce the issue,
-    error message, version, operating system, etcetera
-*   The more time you put into an issue, the better we will be able to help you
-*   The best issue report is a [failing test][unit-test] proving it
+* The issue tracker is for issues.
+  Use discussions for support
+* Search the issue tracker (including closed issues) before opening a new
+  issue
+* Ensure you’re using the latest version of our packages
+* Use a clear and descriptive title
+* Include as much information as possible: steps to reproduce the issue,
+  error message, version, operating system, etcetera
+* The more time you put into an issue, the better we will be able to help you
+* The best issue report is a [failing test][unit-test] proving it
 
 ## Submitting a pull request
 
-*   Run `npm test` locally to build, format, and test your changes
-*   Non-trivial changes are often best discussed in an issue first, to prevent
-    you from doing unnecessary work
-*   For ambitious tasks, you should try to get your work in front of the
-    community for feedback as soon as possible
-*   New features should be accompanied by tests and documentation
-*   Don’t include unrelated changes
-*   Test before submitting code by running `npm test`
-*   Write a convincing description of why we should land your pull request:
-    it’s your job to convince us
+* Run `npm test` locally to build, format, and test your changes
+* Non-trivial changes are often best discussed in an issue first, to prevent
+  you from doing unnecessary work
+* For ambitious tasks, you should try to get your work in front of the
+  community for feedback as soon as possible
+* New features should be accompanied by tests and documentation
+* Don’t include unrelated changes
+* Test before submitting code by running `npm test`
+* Write a convincing description of why we should land your pull request:
+  it’s your job to convince us
 
 ## Resources
 
-*   [How to contribute to open source](https://opensource.guide/how-to-contribute/)
-*   [Making your first contribution](https://medium.com/@vadimdemedes/making-your-first-contribution-de6576ddb190)
-*   [Using pull requests](https://help.github.com/articles/about-pull-requests/)
-*   [GitHub help](https://help.github.com)
+* [How to contribute to open source](https://opensource.guide/how-to-contribute/)
+* [Making your first contribution](https://medium.com/@vadimdemedes/making-your-first-contribution-de6576ddb190)
+* [Using pull requests](https://help.github.com/articles/about-pull-requests/)
+* [GitHub help](https://help.github.com)
 
 ## License
 
