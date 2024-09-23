@@ -3,25 +3,27 @@
 // On stackblitz, you can open the package.json file, update the versions,
 // then run npm install in the stackblitz terminal
 
-import {unified} from 'unified'
+import rehypeStringify from 'rehype-stringify'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
-import rehypeStringify from 'rehype-stringify'
+import {unified} from 'unified'
 
-const sourceMarkdown = `
-# heading
+const markdown = `
+# Pluto
 
-* list
-* item
-
-\`\`\`js
-function () {}
-\`\`\`
+**Pluto** (minor-planet designation: *134340 Pluto*)
+is a
+[dwarf planet](https://en.wikipedia.org/wiki/Dwarf_planet)
+in the
+[Kuiper belt](https://en.wikipedia.org/wiki/Kuiper_belt).
 `
 
+const $error = document.querySelector('#error')!
+const $result = document.querySelector<HTMLIFrameElement>('#result')!
+const $source = document.querySelector('#source')!
+
 try {
-  document.querySelector<HTMLPreElement>('#source')!.textContent =
-    sourceMarkdown
+  $source.textContent = markdown
 
   const file = await unified()
     .use(remarkParse)
@@ -29,12 +31,11 @@ try {
     .use(remarkRehype)
     // Add any rehype plugins here
     .use(rehypeStringify)
-    .process(sourceMarkdown)
+    .process(markdown)
 
-  document.querySelector<HTMLIFrameElement>(
-    '#result'
-  )!.contentWindow!.document.body.innerHTML = String(file)
-  document.querySelector<HTMLPreElement>('#error')!.textContent = ''
+  $error.textContent = ''
+  $result.contentWindow!.document.body.innerHTML = String(file)
 } catch (error) {
-  document.querySelector<HTMLPreElement>('#error')!.textContent = String(error)
+  $error.textContent = String(error)
+  $result.contentWindow!.document.body.textContent = ''
 }

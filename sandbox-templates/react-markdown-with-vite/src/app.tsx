@@ -5,19 +5,18 @@
 
 import Markdown from 'react-markdown'
 
-const markdownSource = `
-# heading
+const markdown = `
+# Pluto
 
-* list
-* items
-
-\`\`\`js
-function () {}
-\`\`\`
+**Pluto** (minor-planet designation: *134340 Pluto*)
+is a
+[dwarf planet](https://en.wikipedia.org/wiki/Dwarf_planet)
+in the
+[Kuiper belt](https://en.wikipedia.org/wiki/Kuiper_belt).
 `
 
 function App() {
-  return <Markdown>{markdownSource}</Markdown>
+  return <Markdown>{markdown}</Markdown>
 }
 
 export default App

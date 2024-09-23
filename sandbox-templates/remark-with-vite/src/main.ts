@@ -5,26 +5,30 @@
 
 import {remark} from 'remark'
 
-const sourceMarkdown = `
-# heading
+const markdown = `
+# Pluto
 
-* list
-* item
-
-\`\`\`js
-function () {}
-\`\`\`
+**Pluto** (minor-planet designation: *134340 Pluto*)
+is a
+[dwarf planet](https://en.wikipedia.org/wiki/Dwarf_planet)
+in the
+[Kuiper belt](https://en.wikipedia.org/wiki/Kuiper_belt).
 `
 
+const $error = document.querySelector('#error')!
+const $result = document.querySelector('#result')!
+const $source = document.querySelector('#source')!
+
 try {
-  document.querySelector('#source')!.textContent = sourceMarkdown
+  $source.textContent = markdown
 
   const file = await remark()
     // .use remark plugins here
-    .process(sourceMarkdown)
+    .process(markdown)
 
-  document.querySelector('#result')!.textContent = String(file)
-  document.querySelector('#error')!.textContent = ''
+  $error.textContent = ''
+  $result.textContent = String(file)
 } catch (error) {
-  document.querySelector('#error')!.textContent = String(error)
+  $error.textContent = String(error)
+  $result.textContent = ''
 }

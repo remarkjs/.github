@@ -4,9 +4,6 @@
   "private": true,
   "type": "module",
   "main": "src/main.ts",
-  "scripts": {
-    "start": "tsc && vite"
-  },
   "dependencies": {
     "rehype-stringify": "^10.0.0",
     "remark-parse": "^11.0.0",
@@ -16,5 +13,8 @@
   "devDependencies": {
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
+  },
+  "scripts": {
+    "start": "tsc && vite"
   }
 }
