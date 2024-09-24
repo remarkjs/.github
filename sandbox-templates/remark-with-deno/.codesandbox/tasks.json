@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "docker": {
+      "command": "deno run index.ts",
+      "name": "Run container",
+      "runAtStart": true
+    }
+  }
+}
