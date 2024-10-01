@@ -77,54 +77,32 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: javascript-runtime
-    attributes:
-      label: Runtime
+  - attributes:
+      label: Affected runtime and version
       description: |
-        What JavaScript runtime are you using to build or run the code?
-        **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 is required.
-      multiple: true
-      options:
-        - Node v22
-        - Node v20
-        - Node v18
-        - Node v16
-        - Deno
-        - Bun
-        - Electron
-        - Other (please specify in steps to reproduce)
+        What runtime are you using (such as `node@22.9`, `deno@1.12.2`)?
+        Please test using the latest version.
+    id: runtime
+    type: input
     validations:
-      required: false
-
-  - type: dropdown
+      required: true
+  - attributes:
+      description: |
+        What package manager are you using (such as `npm@10.8.1`)?
+        Please test using the latest version.
+      label: Affected package manager and version
     id: package-manager
-    attributes:
-      label: Package manager
-      description: What package manager are you using?
-      multiple: true
-      options:
-        - npm 10
-        - npm 6
-        - yarn 3
-        - yarn 2
-        - yarn 1
-        - pnpm
-        - Other (please specify in steps to reproduce)
+    type: input
     validations:
       required: false
 
-  - type: dropdown
+  - attributes:
+      description: |
+        What operating system are you using (such as `macOS Sequoia 15`)?
+        Please test using the latest version.
+      label: Affected OS and version
     id: operating-system
-    attributes:
-      label: OS
-      description: What operating system are you using?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - macOS
-        - Other (please specify in steps to reproduce)
+    type: input
     validations:
       required: false
 
