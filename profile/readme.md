@@ -1,69 +1,78 @@
-# [![remark][logo]][monorepo]
+# [![remark][githubusercontent-logo]][github-remark]
 
-[**remark**][monorepo] is a popular free and open source tool that transforms
-markdown with plugins.
+**[remark][github-remark]** is a popular free and open source tool that
+transforms markdown with plugins.
 Markdown is a markup language that often feels more natural to type than HTML.
 Plugins can inspect and change markdown.
 
-* to learn markdown, see this [cheatsheet and tutorial][cheat]
-* we follow [CommonMark][] by default (GFM with [`remark-gfm`][remark-gfm],
-  MDX with [`remark-mdx`][remark-mdx])
-* we use [`micromark`][micromark] for parsing and [mdast][] as the syntax tree
-* to find plugins, see [`awesome-remark`][awesome], the
-  [list of plugins][plugins], and the [`remark-plugin` topic][topic]
+* to learn markdown, see this [cheatsheet and tutorial][commonmark-help]
+* we follow [CommonMark][] by default
+  (GFM with [`remark-gfm`][github-remark-gfm],
+  MDX with [`remark-mdx`][github-remark-mdx])
+* we use [`micromark`][github-micromark] for parsing and
+  [mdast][github-mdast] as the syntax tree
+* to find plugins, see [`remarkjs/awesome-remark`][github-remark-awesome],
+  the [list of plugins][github-remark-plugins],
+  and the [`remark-plugin` topic][github-topics-remark-plugin]
 
 #### unified
 
-remark is part of the unified collective, which brings together organisations
-that work with content as structured data.
+**remark** is part of the unified collective,
+which brings together organisations that work with content as structured data.
 
-* for more about us, see [`unifiedjs.com`][site]
-* for how the collective is governed, see [`unifiedjs/collective`][collective]
-* for updates, see [@unifiedjs][twitter] on Twitter
+* for more about us,
+  see [`unifiedjs.com`][unifiedjs]
+* for how the collective is governed,
+  see [`unifiedjs/collective`][github-unified-collective]
 
 #### Get involved
 
-> 👉 **Note**: By interacting with this organization or community you agree to
-> abide by our [code of conduct][coc].
+This community has a [code of conduct][github-health-code-of-conduct].
+You must follow it when interacting with the community.
 
-* for questions, see [support][]
-* to help, see [contribute][]
-* to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
+* for questions,
+  see [`support.md`][github-health-support]
+* to help,
+  see [`contributing.md`][github-health-contributing]
+* to sponsor,
+  see [GitHub sponsors][github-sponsors],
+  [`thanks.dev`][thanks],
+  or [OpenCollective][]
 
-[logo]: https://raw.githubusercontent.com/remarkjs/remark/1f338e72/logo.svg?sanitize=true
-
-[monorepo]: https://github.com/remarkjs/remark
+[commonmark-help]: https://commonmark.org/help/
 
 [commonmark]: https://commonmark.org
 
-[remark-gfm]: https://github.com/remarkjs/remark-gfm
+[github-health-code-of-conduct]: https://github.com/remarkjs/.github/blob/main/code-of-conduct.md
 
-[remark-mdx]: https://github.com/mdx-js/mdx/tree/main/packages/remark-mdx
+[github-health-contributing]: https://github.com/remarkjs/.github/blob/main/contributing.md
 
-[cheat]: https://commonmark.org/help/
+[github-health-support]: https://github.com/remarkjs/.github/blob/main/support.md
 
-[micromark]: https://github.com/micromark/micromark
+[github-mdast]: https://github.com/syntax-tree/mdast
 
-[mdast]: https://github.com/syntax-tree/mdast
+[github-micromark]: https://github.com/micromark/micromark
 
-[awesome]: https://github.com/remarkjs/awesome
+[github-remark-awesome]: https://github.com/remarkjs/awesome-remark
 
-[plugins]: https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
+[github-remark-gfm]: https://github.com/remarkjs/remark-gfm
 
-[topic]: https://github.com/topics/remark-plugin
+[github-remark-mdx]: https://github.com/mdx-js/mdx/tree/main/packages/remark-mdx
 
-[site]: https://unifiedjs.com
+[github-remark-plugins]: https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
 
-[twitter]: https://twitter.com/unifiedjs
+[github-remark]: https://github.com/remarkjs/remark
 
-[collective]: https://github.com/unifiedjs/collective
+[github-topics-remark-plugin]: https://github.com/topics/remark-plugin
 
-[coc]: https://github.com/remarkjs/.github/blob/main/code-of-conduct.md
+[github-unified-collective]: https://github.com/unifiedjs/collective
 
-[support]: https://github.com/remarkjs/.github/blob/main/support.md
+[opencollective]: https://opencollective.com/unified
 
-[contribute]: https://github.com/remarkjs/.github/blob/main/contributing.md
+[thanks]: https://thanks.dev
 
-[oc]: https://opencollective.com/unified
+[github-sponsors]: https://github.com/sponsors/unifiedjs
 
-[ghs]: https://github.com/sponsors/unifiedjs
+[githubusercontent-logo]: https://raw.githubusercontent.com/remarkjs/remark/1f338e72/logo.svg?sanitize=true
+
+[unifiedjs]: https://unifiedjs.com
