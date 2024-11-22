@@ -1,21 +1,10 @@
 {
-  "name": "github",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Community health files",
-  "license": "CC-BY-4.0",
-  "keywords": [],
-  "repository": "remarkjs/.github",
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
   "bugs": "https://github.com/remarkjs/.github",
-  "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "workspaces": [
-    "sandbox-templates/react-markdown-with-vite",
-    "sandbox-templates/remark-rehype-with-vite",
-    "sandbox-templates/remark-with-vite"
-  ],
+  "description": "Community health files",
   "devDependencies": {
     "eslint-config-xo-react": "^0.27.0",
     "prettier": "^3.0.0",
@@ -24,24 +13,39 @@
     "remark-preset-wooorm": "^10.0.0",
     "xo": "^0.59.0"
   },
+  "keywords": [],
+  "license": "CC-BY-4.0",
+  "name": "github",
+  "prettier": {
+    "bracketSpacing": false,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  },
+  "private": true,
+  "remarkConfig": {
+    "plugins": [
+      "remark-frontmatter",
+      "remark-preset-wooorm",
+      [
+        "remark-lint-first-heading-level",
+        false
+      ]
+    ]
+  },
+  "repository": "remarkjs/.github",
   "scripts": {
     "format": "remark --frail --quiet --output -- . && prettier --log-level warn --write -- . && xo --fix",
     "test": "npm run format"
   },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "singleQuote": true,
-    "bracketSpacing": false,
-    "semi": false,
-    "trailingComma": "none"
-  },
+  "version": "0.0.0",
   "xo": {
-    "extends": "xo-react",
-    "prettier": true,
     "env": [
       "browser"
     ],
+    "extends": "xo-react",
     "overrides": [
       {
         "files": [
@@ -61,16 +65,13 @@
           "react/react-in-jsx-scope": "off"
         }
       }
-    ]
+    ],
+    "prettier": true
   },
-  "remarkConfig": {
-    "plugins": [
-      "remark-frontmatter",
-      "remark-preset-wooorm",
-      [
-        "remark-lint-first-heading-level",
-        false
-      ]
-    ]
-  }
+  "workspaces": [
+    "sandbox-templates/react-markdown-with-vite/",
+    "sandbox-templates/remark-rehype-with-vite/",
+    "sandbox-templates/remark-with-deno/",
+    "sandbox-templates/remark-with-vite/"
+  ]
 }
