@@ -1,9 +1,4 @@
 {
-  "name": "react-markdown-with-vite",
-  "version": "1.0.0",
-  "private": true,
-  "main": "src/main.tsx",
-  "type": "module",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -16,7 +11,12 @@
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
   },
+  "main": "src/main.tsx",
+  "name": "react-markdown-with-vite",
+  "private": true,
   "scripts": {
     "start": "tsc && vite"
-  }
+  },
+  "type": "module",
+  "version": "1.0.0"
 }

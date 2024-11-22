@@ -1,9 +1,4 @@
 {
-  "name": "remark-rehype-with-vite",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "main": "src/main.ts",
   "dependencies": {
     "rehype-stringify": "^10.0.0",
     "remark-parse": "^11.0.0",
@@ -14,7 +9,12 @@
     "typescript": "^5.0.0",
     "vite": "^5.0.0"
   },
+  "main": "src/main.ts",
+  "name": "remark-rehype-with-vite",
+  "private": true,
   "scripts": {
     "start": "tsc && vite"
-  }
+  },
+  "type": "module",
+  "version": "1.0.0"
 }
